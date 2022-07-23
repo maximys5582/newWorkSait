@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sign.css">
+    <link rel="stylesheet" href="register.js">
+    <link rel="stylesheet" href="css/adaptive_index.css">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <div class="video">
+        <img class="video-media" src="image/4Cb2.gif" alt="">
+    </div>
+    
+    
+        <div class="inner-container">
+          <div class="box">
+            <h1>Авторизация</h1>
+              <input type="text" placeholder="Логин"/>
+              <input type="text" placeholder="Пароль"/>
+            <div class="hode" id="hide" style="display: none;">
+              <input type="text"  id="mail" placeholder="E-mail"/>
+              <input type="text"  id="lastname" placeholder="Фамилия"/>
+              <input type="text"  id="name" placeholder="Имя"/>
+              <button type="button" onclick="window.location.href='portfolio.html';">Зарегестрироваться</button>
+            </div>
+            <button type="button" onclick="window.location.href = 'portfolio.html';">Войти</button>
+            <p> <span onclick="(document.getElementById('hide').style.display='block')">Зарегестрироваться</span></p>
+          </div>
+        </div>
+</form>
+</body>
+</html>
